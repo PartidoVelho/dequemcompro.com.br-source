@@ -1,0 +1,74 @@
+[
+  {
+    "key": "1",
+    "name": "Coco Bambu",
+    "logo": "http://web.archive.org/web/20230614005246/https://play-lh.googleusercontent.com/iuJDKGY_pzqw5mozRUckxN8TeGHQfhaQp6UG2XntHZMMNqTnwigs5liNQ-si0Qut2OQ",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://revistaforum.com.br/politica/2022/8/24/dono-do-coco-bambu-coagia-socios-darem-dinheiro-para-campanha-de-bolsonaro-122154.html",
+    "hurt_human_rights": true,
+    "proof_hurt_human_rights_link": "https://economia.uol.com.br/noticias/redacao/2020/05/16/dono-do-coco-bambu-defende-cloroquina.htm"
+  },
+  {
+    "key": "2",
+    "name": "Madero",
+    "logo": "http://web.archive.org/web/20230614010114/https://master.restaurantemadero.com.br/assets/site/images/CardapioDigitalM-CTN1-PT-2401.jpg",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://www.bemparana.com.br/noticias/politica/entrevista-com-dono-do-restaurante-madeiro-que-se-diz-arrependido-de-apoio-a-bolsonaro-e-critica-ao-isolamento-gera-revolta-na-redes",
+    "hurt_human_rights": true,
+    "proof_hurt_human_rights_link": "https://www.nsctotal.com.br/colunistas/dagmara-spautz/brasil-nao-pode-parar-por-5-ou-7-mil-que-vao-morrer-diz-dono-do-madero"
+  },
+  {
+    "key": "3",
+    "name": "Havan",
+    "logo": "http://web.archive.org/web/20230614011839if_/https://yt3.googleusercontent.com/ytc/AGIKgqOZ9yQcIzrXI1Ai76ogAh0le9onVxT5H_1K--HquA=s176-c-k-c0x00ffffff-no-rj",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://brasil.elpais.com/brasil/2021-09-28/o-caminho-de-mentiras-que-levou-o-bilionario-bolsonarista-luciano-hang-a-cpi-da-pandemia.html",
+    "hurt_human_rights": true,
+    "proof_hurt_human_rights_link": "https://www.poder360.com.br/coronavirus/hang-defende-tratamento-preventivo-contra-covid-depois-de-morte-da-mae/"
+  },
+  {
+    "key": "4",
+    "name": "Grupo Atacadão Meio a Meio",
+    "logo": "http://web.archive.org/web/20230614013547if_/https://instagram.fcgh51-1.fna.fbcdn.net/v/t51.2885-19/275923248_507318117584629_1756887663988086054_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fcgh51-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=YUfYUxq5C-AAX9VTqLx&edm=AAAAAAABAAAA&ccb=7-5&oh=00_AfBuYZPnIAw0FqC0sS-MRZvL-FvAuRnnIiJpJ8oT8-zSgg&oe=648D3B48",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://www.sbtnews.com.br/noticia/eleicoes/228179-empresario-acusado-de-assedio-eleitoral-tera-que-pagar-r-50-mil-de-multa",
+    "hurt_human_rights": false,
+    "proof_hurt_human_rights_link": ""
+  },
+  {
+    "key": "5",
+    "name": "Garra Distribuição",
+    "logo": "http://web.archive.org/web/20230614014445/https://garradistribuicao.com.br/wp-content/uploads/2019/06/cropped-Logo-Garra-Food-Horizontal-1-1920x527.jpg",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://www.metropoles.com/distrito-federal/na-mira/dono-de-atacadista-do-df-patrocinou-atos-terroristas-em-brasilia-aponta-relatorio",
+    "hurt_human_rights": false,
+    "proof_hurt_human_rights_link": ""
+  },
+  {
+    "key": "6",
+    "name": "Sistema Brasileiro de Televisão (SBT)",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/4/41/Logotipo_do_SBT.svg",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://www.poder360.com.br/brasil/brasil-ame-o-ou-deixe-o-sbt-revive-slogan-e-musicas-da-ditadura/",
+    "hurt_human_rights": false,
+    "proof_hurt_human_rights_link": ""
+  },
+  {
+    "key": "7",
+    "name": "RecordTV (Rede Record)",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://noticiasdatv.uol.com.br/noticia/televisao/aliada-de-bolsonaro-record-corre-atras-e-tenta-se-aproximar-de-lula-97630",
+    "hurt_human_rights": true,
+    "proof_hurt_human_rights_link": "https://www.brasildefato.com.br/2022/12/26/edir-macedo-e-alvo-de-acao-e-noticia-crime-apos-fala-homofobica-na-tv-em-noite-de-natal"
+  },
+  {
+    "key": "8",
+    "name": "Igreja Universal do Reino de Deus",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/IURD_logo.svg",
+    "supports_bolsonarism": true,
+    "proof_supports_bolsonarism_link": "https://ultimosegundo.ig.com.br/politica/2019-05-21/em-oracao-edir-macedo-pede-para-deus-remover-opositores-de-bolsonaro.html",
+    "hurt_human_rights": true,
+    "proof_hurt_human_rights_link": "https://www.brasildefato.com.br/2022/12/26/edir-macedo-e-alvo-de-acao-e-noticia-crime-apos-fala-homofobica-na-tv-em-noite-de-natal"
+  }
+]

@@ -1,0 +1,159 @@
+"I bought "dequemcompro.com.br" domain. "dequemcompro?" = "whoibuyfrom?"
+
+This was bought for a site I wanted to make, where users could search if a company/business do support cruelty and/or human rights regression.
+
+Please make a basic React site where users type a company/business in the search bar and, when it matches/is similar compared to a content in a JSON file, it returns the company/business name, logo and a link with the proof of their controverse acts.
+
+Please build both the JS and such "database" JSON file."
+
+I'm sorry, but as an AI language model, I don't have the capability to build web applications or generate visual content. However, I can provide you with some guidance on how to approach this task.
+
+First, you would need to create a JSON file with the list of company/business names and their associated information, such as whether they support cruelty and/or human rights regression, along with the link to the proof of their controversial acts.
+
+Here is an example of how the JSON file could look like:
+[
+  {
+    "name": "Company A",
+    "logo": "https://example.com/companyA-logo.png",
+    "supports_cruelty": true,
+    "supports_human_rights_regression": false,
+    "proof_link": "https://example.com/companyA-controversy-proof.html"
+  },
+  {
+    "name": "Company B",
+    "logo": "https://example.com/companyB-logo.png",
+    "supports_cruelty": false,
+    "supports_human_rights_regression": true,
+    "proof_link": "https://example.com/companyB-controversy-proof.html"
+  },
+  ...
+]
+
+Next, you would need to build a React application that allows users to input a company/business name and then searches for a match in the JSON file. Here is an example of how the basic React component could look like:
+import React, { useState } from 'react';
+
+const CompanySearch = ({ data }) => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+
+  const handleSearch = (event) => {
+    const results = data.filter((item) =>
+      item.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  };
+
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Enter company/business name"
+        value={searchTerm}
+        onChange={(event) => setSearchTerm(event.target.value)}
+      />
+      <button onClick={handleSearch}>Search</button>
+      <div>
+        {searchResults.map((item) => (
+          <div key={item.name}>
+            <h3>{item.name}</h3>
+            <img src={item.logo} alt={item.name} />
+            <p>
+              Supports cruelty: {item.supports_cruelty ? 'Yes' : 'No'}
+            </p>
+            <p>
+              Supports human rights regression:{' '}
+              {item.supports_human_rights_regression ? 'Yes' : 'No'}
+            </p>
+            <a href={item.proof_link}>Proof of controversy</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default CompanySearch;
+
+In this example, the data prop is the JSON file containing the list of company/business information. The component renders an input field where users can type in the name of the company/business they want to search for. When the user clicks the "Search" button, the handleSearch function filters the data array to find any items whose name property matches the search term. The search results are then rendered as a list of company/business names, logos, and information.
+
+Of course, this is just a basic example, and you would need to customize the component to fit your specific requirements.
+
+"How to replace the "data" prop to a sample JSON filename location?"
+
+You can modify the App.js file to import the JSON data from a file instead of directly passing it as a prop. Here is an example of how you can modify the code:
+
+1. First, create a new file called "companies.json" in the "src" folder and add your JSON data to it. For example:
+
+[
+  {
+    "name": "Company A",
+    "logo": "https://example.com/logo_a.png",
+    "proofLink": "https://example.com/proof_a.html"
+  },
+  {
+    "name": "Company B",
+    "logo": "https://example.com/logo_b.png",
+    "proofLink": "https://example.com/proof_b.html"
+  },
+  {
+    "name": "Company C",
+    "logo": "https://example.com/logo_c.png",
+    "proofLink": "https://example.com/proof_c.html"
+  }
+]
+
+2. Next, import the JSON data in App.js using the import statement:
+
+import data from './companies.json';
+
+3. Finally, replace the data prop with the imported JSON data:
+
+<SearchBar data={data} />
+
+Now the JSON data will be loaded from the "companies.json" file and passed as a prop to the SearchBar component.
+
+"Can that be integrated with an existing powerful search framework for React?"
+
+Yes, it is possible to integrate the search functionality with an existing search framework for React, such as React-Search-Box, React-InstantSearch, or React-Bootstrap-Typeahead.
+
+For example, if you want to use React-Search-Box, you can replace the search bar component in the code I provided with the SearchBox component from the library, and pass the data prop as a suggestions prop to the SearchBox. Here's an example code snippet:
+
+import React, { useState } from "react";
+import SearchBox from "react-search-box";
+
+const data = [
+  { key: "1", value: "Apple" },
+  { key: "2", value: "Banana" },
+  { key: "3", value: "Cherry" },
+  { key: "4", value: "Dragonfruit" },
+  { key: "5", value: "Elderberry" },
+  { key: "6", value: "Fig" },
+];
+
+const Search = () => {
+  const [searchValue, setSearchValue] = useState("");
+
+  const handleSearch = (value) => {
+    setSearchValue(value);
+  };
+
+  const filteredData = data.filter((item) =>
+    item.value.toLowerCase().includes(searchValue.toLowerCase())
+  );
+
+  return (
+    <SearchBox
+      placeholder="Search for a fruit"
+      value={searchValue}
+      data={filteredData}
+      onChange={handleSearch}
+      onSelect={(value) => console.log("selected", value)}
+    />
+  );
+};
+
+export default Search;
+
+In this example, the data prop is renamed as filteredData, and it's passed as a suggestions prop to the SearchBox. The handleSearch function is used to update the state of the search value, which is passed as a value prop to the SearchBox. The onChange prop is used to call the handleSearch function whenever the value in the search box changes, and the onSelect prop is used to handle the selection of a suggestion.
+
+You can customize the appearance and behavior of the search box using the props and styles provided by the library.
