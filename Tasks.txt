@@ -1,0 +1,2 @@
+- instead of showing all of the results from companies.json when clicked "Search", should not have the "Search button"; when typing on the searchbox, should display the matching results then when a result is clicked from the searchbox, show its content from companies.json
+- add span to "Yes" and "No"
